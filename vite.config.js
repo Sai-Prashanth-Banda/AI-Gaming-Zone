@@ -182,6 +182,7 @@ logger.error = (msg, options) => {
 }
 
 export default defineConfig({
+	root: process.cwd(),
 	customLogger: logger,
 	plugins: [
 		react(),
